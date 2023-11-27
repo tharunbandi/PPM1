@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color:rgb(23, 23, 133);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 0 25px;
+    color: white;
+  
+    
+    
+
+}
+.logo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+
+    
+}
+.nav-links{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+  
+
+}
+.nav-links li{
+    list-style-type: none;
+   
+}
+
+.content{
+    position: relative;
+    top:50px;
+    width: 100%;
+    height: 200%;
+    background: url('./mobile\ pic.jfif');
+    background-size: cover;
+}
+html,body{
+    height: 100%;
+
+}
+
+
+
+
+
